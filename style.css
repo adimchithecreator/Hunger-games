@@ -8,13 +8,20 @@ body{
     padding: 30px;
     border: 1px solid #ade8f4;
     border-radius: 20px;
-    height: 500px;
+    height: 650px;
      background-color: #ade8f4;
      font-family: 'Inter', sans-serif;
 
      user-select: none;
 }
-
+.icon{
+    text-align: center;
+    margin-left: -30px;
+}
+#units{
+    font-size: 1rem;
+    font-weight: bold;
+}
 .main-app{
     padding: 20px;
    
@@ -72,6 +79,25 @@ a:hover{
     text-decoration: none;
     color: white;
     cursor: grab;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: #0096c7;
+  
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
 .foot-note{
     margin: 0 auto;

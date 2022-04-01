@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/9a3976d2f0.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200@600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="main-app">
+        <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-9">
+                <input type="search" placeholder="Type a city.." class="form-control form " id="city-input" autocomplete="off">
+              </div>
+              <div class="col-3">
+                <button class="btn"> <i class="fa-solid fa-magnifying-glass-location search"></i></button>
+              </div>
+              
+            </div>
+            
+        </form>
+        <hr>
+              <h1 id="city"></h1>
+              
+              <h3 id="date"></h3>
+<br>
+              <h1  class="temp" > <strong id="temperature"></strong><small>°</small></h1>
+              <ul>
+                <div class="row ">
+                  <div class="col-9">
+                    <li> <img src="" 
+               alt="partly_cloudy" id="icon"> </li>
+                  </div>
+                  
+                  <div class="col-3">
+                  <li id="units"><a href="#"> <span id="celsius-link" class="active"> C</span></a> |<a href="#"><span class="active" id="fahrenheit-link"> F</span></a></li>
+                  </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                   <div class="col-4">
+                    <li id="description"></li>
+                  </div>
+                  <div class="col-4">
+                  <li>wind: <span id="speed"></span>km/h</li>
+                  </div>
+                  <div class="col-4">
+                  <li>Humidity: <span id="humidity"></span>%</li>
+                </div>
+              </ul>
+        </div>
+    </div>
+   <small class="foot-note">This app is open-sourced on <a href="">GitHub </a> by <a href="https://www.medium.com/@adimchi" target="_blank">Dimdim</a></small>
+    <script src="app.js"></script>
+</body>
+</html>

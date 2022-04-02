@@ -84,8 +84,8 @@ a{
 a:hover{
     text-decoration: none;
     color: white;
-    cursor: grab;
-    font-size: 20px;
+    cursor: pointer;
+   
 }
 .weather-forecast {
   margin-top: 20px;

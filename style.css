@@ -11,7 +11,9 @@ body{
     height: 600px;
      background-color: #ade8f4;
      font-family: 'Inter', sans-serif;
-
+box-shadow: 43px 14px 85px 3px rgba(1,73,124,0.4);
+-webkit-box-shadow: 43px 14px 85px 3px rgba(1,73,124,0.4);
+-moz-box-shadow: 43px 14px 85px 3px rgba(1,73,124,0.4);
      user-select: none;
 }
 .icon{

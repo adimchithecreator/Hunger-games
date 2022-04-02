@@ -5,7 +5,7 @@ body{
 }
 .container{
     display: block;
-    margin: 30px auto;
+    margin: 10px auto;
     width: 600px;
     padding: 30px;
     border: 1px solid #ade8f4;
@@ -24,6 +24,7 @@ body{
     font-size: 1rem;
     font-weight: bold;
 }
+
 .main-app{
     padding: 20px;
    
@@ -42,12 +43,16 @@ body{
     font-size: 20px;
    
 }
+.current{
+   margin-left: 20px;
+}
 .btn:hover{
     color: #caf0f8;
 }
 .temp{
     text-align: center;
 }
+
 h1{
     font-weight: 600px;
 }
@@ -58,6 +63,7 @@ li{
 }
 li:hover{
     color: white;
+     text-transform: capitalize;
 }
 h3{
     font-size: 17px;
@@ -81,6 +87,7 @@ a:hover{
     text-decoration: none;
     color: white;
     cursor: grab;
+    font-size: 20px;
 }
 .weather-forecast {
   margin-top: 20px;

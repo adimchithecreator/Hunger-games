@@ -16,6 +16,9 @@
 - This was my first time using APIs and i had a hard time fetching, but i used axios and it made my work easier.
  <br>
 - Getting my geolocation button to work
+
+<br>
+
 <p> I was able to explore JavaScript DOM and i hope to implement it in my future projects </p>
 
 <h4> HOW TO USE</h4>

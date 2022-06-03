@@ -45,6 +45,9 @@ function getCurrentLocation(event) {
     text-align: center;
 }
 ```
-
+```HTML
+<h1  class="temp" ><strong id="temperature"></strong><small>°</small><small id="units"><a href="#"><span id="celsius-link" class="active">C</span></a>|<a href="#"><span class="active" id="fahrenheit-link">F</span></a></li></small>
+                 </h1>
+```
 
 

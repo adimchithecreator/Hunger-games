@@ -50,4 +50,7 @@ function getCurrentLocation(event) {
                  </h1>
 ```
 
+<h4>SCREENSHOT</h4>
+![Screenshot 2022-04-01 at 15-04-24 weather](https://user-images.githubusercontent.com/74629257/171854858-45f92282-c0c2-469e-9f7c-c4bcbe48e1f3.png)
+
 

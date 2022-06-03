@@ -19,10 +19,15 @@
 
 <h4> HOW TO USE</h4>
 - Open https://adimchi-weather-app.netlify.app/
+<br>
 - Input city and click enter or
+
+<br>
 - Use the second button to get weather information in your current city
 
 <h4> Some code i'm proud of</h4>
+
+
 ```JS
 function getCurrentLocation(event) {
   event.preventDefault();

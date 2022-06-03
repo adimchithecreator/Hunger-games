@@ -25,7 +25,7 @@
 <br>
 - Use the second button to get weather information in your current city
 
-<h4> Some code i'm proud of</h4>
+<h4> Some code i'm proud of:</h4>
 
 
 ```JS
@@ -34,7 +34,13 @@ function getCurrentLocation(event) {
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
 ```
-
+```CSS
+.foot-note{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+```
 
 
 
